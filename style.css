@@ -1,0 +1,289 @@
+.banner_img{
+      background-image: url('https://images.unsplash.com/photo-1523580494863-6f3031224c94');
+
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.banner-paragraph{
+    font-size:30px;
+    
+}
+.banner-heading{
+    font-size:60px;
+    padding-right: 30px;
+    
+}
+.banner-span-h1{
+    color: yellow;
+}
+.banner-btn{
+    color:yellow;
+    border-color: yellow;
+    height: 60px;
+    width: 180px;
+     transition: 0.3s;
+     border-radius: 10px;
+     background-color: transparent;
+}
+.navbar{
+    background: rgba(255,255,255,0.1);
+
+    backdrop-filter: blur(15px);
+}
+.why-section{
+    background: #0f172a;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.why-heading{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.why-para{
+    font-size: 20px;
+}
+
+.feature-card{
+    background: rgba(255,255,255,0.05);
+
+    border: 1px solid rgba(255,255,255,0.1);
+
+    border-radius: 25px;
+
+  
+}
+
+
+
+.icon-box{
+    font-size: 60px;
+}
+
+.feature-card h3{
+    font-weight: bold;
+}
+
+.feature-card p{
+    line-height: 1.8;
+}
+.Event-cards-section{
+     background: #0f172a;
+
+}
+.card{
+     background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 15px;
+    height: 100%;
+    width: 400px;
+}
+.timeline-section{
+    background: #020617;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.timeline-heading{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.timeline{
+    position: relative;
+
+    margin-top: 50px;
+}
+
+.timeline::before{
+    content: "";
+
+    position: absolute;
+
+    left: 50%;
+
+    width: 4px;
+    height: 100%;
+
+    background: #0d6efd;
+
+    transform: translateX(-50%);
+}
+
+.timeline-item{
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 50px;
+
+    position: relative;
+}
+
+.timeline-date{
+    width: 180px;
+
+    background: #0d6efd;
+
+    color: white;
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    text-align: center;
+
+    font-weight: bold;
+}
+
+.timeline-content{
+    width: 45%;
+
+    background: rgba(255,255,255,0.05);
+
+    padding: 25px;
+
+    border-radius: 20px;
+
+    color: white;
+
+    backdrop-filter: blur(10px);
+}
+
+.timeline-content h4{
+    font-weight: bold;
+}
+.contact-section{
+    background: #020617;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact-heading{
+    font-size: 55px;
+
+    font-weight: bold;
+}
+
+.contact-card{
+    background: rgba(255,255,255,0.05);
+
+    border-radius: 25px;
+
+    backdrop-filter: blur(10px);
+
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.form-input{
+    background: rgba(255,255,255,0.08);
+
+    border: none;
+
+    color: white;
+
+    padding: 15px;
+
+    border-radius: 12px;
+}
+
+.form-input::placeholder{
+    color: #cbd5e1;
+}
+
+.form-input:focus{
+    box-shadow: none;
+
+    border: 1px solid #0d6efd;
+
+    background: rgba(255,255,255,0.1);
+
+    color: white;
+}
+
+.contact-btn{
+    padding: 12px 30px;
+
+    border-radius: 30px;
+}
+.footer-section{
+    background: #000814;
+
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.footer-logo{
+    color: white;
+
+    font-size: 35px;
+
+    font-weight: bold;
+}
+
+.footer-title{
+    color: white;
+
+    margin-bottom: 20px;
+}
+
+.footer-para{
+    color: #94a3b8;
+
+    line-height: 1.8;
+}
+
+.footer-links{
+    list-style: none;
+
+    padding: 0;
+}
+
+.footer-links li{
+    margin-bottom: 12px;
+}
+
+.footer-links a{
+    color: #94a3b8;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+.footer-links a:hover{
+    color: #0d6efd;
+}
+
+.footer-line{
+    border-color: rgba(255,255,255,0.1);
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.copyright{
+    color: #64748b;
+}
+
+.form-section{
+    height: 120%;
+    width: 500px;
+     background: rgba(255,255,255,0.12);
+    padding: 30px;
+    border-radius: 20px;
+}
+.formdiv{
+    height: 100%;
+     background: rgba(15, 23, 42, 0.95);
+padding: 30px;
+    width: 100%;
+}
